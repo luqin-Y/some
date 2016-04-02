@@ -50,4 +50,4 @@ as3程序员    2009.07 — 2010.11
 +  。。。。。
 
 
-# Thank you for your reading
+# Thanks for your reading
