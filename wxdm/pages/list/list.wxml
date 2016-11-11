@@ -1,0 +1,17 @@
+<view class="title"><text>{{title}}</text></view>
+
+
+
+<view class="list" wx:for="{{movies}}"  wx:key="{{ movies.key }}" >
+    <navigator class="list-nav" hover-class="navigator-hover" url="" >
+        <view class="list-con">
+            <image class="cover" src="{{item.cover}}" mode="aspectFit" />
+            <view>
+                <text class="move-name">{{item.title}}</text>
+                <text class="move-year">年份：{{item.year}}</text>
+                <text class="move-action">导演：{{item.directors}}</text>
+            </view>
+            <text class="move-stars">{{item.max}}</text>
+        </view>
+    </navigator>
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/home/home",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTitleText": "豆瓣",
+    "navigationBarTextStyle":"white"
+  }
+}

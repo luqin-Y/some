@@ -1,0 +1,40 @@
+swiper {
+    height:200px;
+    background-size:contain; 
+}
+.slide-image{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%; 
+}
+
+.item{
+    background-color: #edf4ed;
+    border-bottom:1px solid #eee ; 
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    padding: 15px;
+    color: #072;
+    
+}
+.arrowright{
+    width:20px;
+    height: 30px;
+}
+.home-text{
+    flex: 1;
+}
+.home-list{
+    margin-top: 20px;
+}
+.home-nav{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.navigator-hover {
+    background-color: green;
+}
