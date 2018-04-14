@@ -1,0 +1,129 @@
+.mian{
+  background-color: #fff;
+
+  // banner
+  .m-banner{
+    // width: 7.5rem;
+    // height: 2.32rem;
+    height: 5rem;
+    background: url('../images/banner.png') 0 0 no-repeat;
+    background-size: cover;
+    .school{
+      font-size: 0.6rem;
+      color: #4b7efd;
+      font-weight: 600;
+      padding: 0.1rem 0.4rem;
+    }
+  }
+
+  // 选择日期
+  .m-seleTime{
+    .sele{
+      ul{
+        display: flex;
+        background-color: #f3f3ff;
+        margin: 0.48rem 0.7rem 0.2rem;
+        height: 1.16rem;
+        line-height: 1.16rem;
+        border-radius: 1rem;
+        li{
+          flex: 1;
+          text-align: center;
+          font-size: 0.6rem;
+        }
+      }
+    }
+    .time{
+      text-align: center;
+      color: #afafb8;
+      font-size: 0.6rem;
+    }
+  }
+
+  // 列表
+  .m-list{
+    margin: 0rem 0.7rem 0 0.35rem;
+    .list-up{
+      ul{
+        display: flex;
+        margin: 0.3rem 0;
+        li{
+          flex: 3;
+          text-align: center;
+          // padding: 0.1rem 0;
+          font-weight: 500;
+          height: 2rem;
+          border-right: 3px solid #f3f3ff;
+          &:last-child{
+            border: none;
+          }
+          .no{
+
+            line-height: 1rem;
+            font-size: .6rem;
+            color: #4b7efd;
+          }
+          .title{
+            line-height: 0.4rem;
+            font-size: 0.5rem;
+            color: #afafb8;
+          }
+        }
+      }
+    }
+  }
+
+  .list-con{
+    border-top:  0.2rem solid #f3f3ff;
+    border-bottom:  0.2rem solid #f3f3ff;
+    padding: 0 0.7rem;
+    // margin: 2rem 0;
+    display: flex;
+    height: 5rem;
+    .char{
+      flex: 1;
+      text-align: center;
+      border-right: 3px solid #f3f3ff;
+      margin: 0.4rem 0;
+      &:last-child{
+        border: none;
+      }
+      .char-con{
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p{
+        font-size: 0.6rem;
+        color: #555;
+        text-align: center;
+      }
+    }
+  }
+
+  .list-down{
+    margin: 1rem 0.4rem 0.4rem 0.4rem;
+    .con{
+      display: flex;
+      margin-top: 0.4rem;
+      a{
+        flex: 1;
+        img{
+          width: auto;
+          height: auto;
+          max-width: 99%;
+          max-height: 100%;
+        }
+      }
+    }
+
+  }
+
+}
+
+.on{
+  background-color: #4b7efd;
+  color: #fff;
+  border-radius: 1rem;
+}
